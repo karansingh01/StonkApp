@@ -31,11 +31,11 @@
 ### StonkApp
 
 - changeScene-metoden kan være nyttig, men ikke lett å få tak i når en må ha en instans av denne klassen. ellers kan den godt kodes slik at den gjenbrukes et tidligere innlastet panel, så en slipper å lese inn fxml-en på nytt hver gang
-- globale/statiske variabler må unngås!
+- globale/statiske variabler må unngås!, check!
 
 ### LoginController
 
-- login- og registerUserNew-metodene viser at changeScene ligger i feil klasse, det gir ikke mening å lage en instans av app-klassen her, bare for å få brukt den metoden. lag heller en felles superklasse for alle kontroller-klassene med denne metoden, så kan den brukes av alle kontrollerne
+- login- og registerUserNew-metodene viser at changeScene ligger i feil klasse, det gir ikke mening å lage en instans av app-klassen her, bare for å få brukt den metoden. lag heller en felles superklasse for alle kontroller-klassene med denne metoden, så kan den brukes av alle kontrollerne, check!
 
 ### MainController
 
@@ -43,7 +43,7 @@
 
 ### StockPageController
 
-- overføring av data gjennom globale variabler er ikke bra!
+- overføring av data gjennom globale variabler er ikke bra!, check!
 - updateStockPage: getPriceChange burde returner et tall, ikke en String, så kan en sjekke fortegnet og ikke tegn 0
 - updateTotalPrice: en må ta høyde for at parseFloat utløser unntak, helst bør tekstfeltet validere input så en sikrer at tallformatet er korrekt
 - metoder som updateTotalPrice bør @FXML-annoteres for å tydeliggjøre at disse kalles automatisk som respons på hendelser (events)
