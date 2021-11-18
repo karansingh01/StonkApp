@@ -2,8 +2,8 @@
 
 ## Bygging
 
-- spotbugs ga flere feil i ui-kontroller-klasser
-- checkstyle el.l. ikke koblet inn
+- spotbugs ga flere feil i ui-kontroller-klasser, check!
+- checkstyle el.l. ikke koblet inn, check!
 
 ## Kodegjennomgang
 
@@ -14,19 +14,19 @@
 
 ### DataHandler
 
-- ikke bruk relative filnavn på denne måten, prosjektet er jo ikke der når brukeren installerer appen på ordentlig
+- ikke bruk relative filnavn på denne måten, prosjektet er jo ikke der når brukeren installerer appen på ordentlig, check!
 
 ### User
 
-- det er uheldig å gjøre en kjerneklasse avhengig av fillagring, det fungerer jo ikke når appen i stedet skal hente data fra en REST-tjeneste
+- det er uheldig å gjøre en kjerneklasse avhengig av fillagring, det fungerer jo ikke når appen i stedet skal hente data fra en REST-tjeneste, check
 
 ### DataHandlerTest
 
-- denne ligger i feil modul og gjør heller ikke noe
+- denne ligger i feil modul og gjør heller ikke noe, check
 
 ### StonkTest
 
-- funksjonaliteten testes ikke
+- funksjonaliteten testes ikke, check
 
 ### StonkApp
 
@@ -39,7 +39,7 @@
 
 ### MainController
 
-- håndtering av json burde ikke være i en ui-klasse eller i ui-modulen for den saks skyld. json-koden burde vært ferdig dekodet i getPortfolio-metoden
+- håndtering av json burde ikke være i en ui-klasse eller i ui-modulen for den saks skyld. json-koden burde vært ferdig dekodet i getPortfolio-metoden, check
 
 ### StockPageController
 
